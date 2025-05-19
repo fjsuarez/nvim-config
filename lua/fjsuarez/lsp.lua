@@ -1,10 +1,11 @@
 local lspconfig = require('lspconfig')
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
 -- TypeScript language server
-lspconfig.ts_ls.setup {}
+lspconfig.ts_ls.setup {capabilities=capabilities}
 
 -- Python language server
-lspconfig.pyright.setup {}
+lspconfig.pyright.setup {capabilities=capabilities}
 
 -- Ruff
 lspconfig.ruff.setup {

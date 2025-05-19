@@ -12,5 +12,3 @@ vim.keymap.set('v','<C-_>','gc',{remap=true,desc='Toggle comment selection'})
 -- Exit terminal mode
 map('t','<Esc>','<C-\\><C-n>',{noremap=true,silent=true})
 
--- NvimTree
-map('n','<leader>e',':NvimTreeToggle<CR>',{noremap=true,silent=true,desc="Toggle NvimTree"})
