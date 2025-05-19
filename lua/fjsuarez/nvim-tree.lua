@@ -31,12 +31,12 @@ require("nvim-tree").setup({
     dotfiles = false,
   },
   update_focused_file = {
-  enable = true,
-  update_cwd = true, 
+    enable = true,
+    update_cwd = true, 
   },
   git = {
-     enable = true,
-     ignore = false,
+    enable = true,
+    ignore = false,
   },
   diagnostics = {
     enable = true,
