@@ -19,3 +19,6 @@ require("fjsuarez.toggleterm")
 -- 6) Control
 require("fjsuarez.obsession")
 require("fjsuarez.fugitive")
+
+-- 7) Copilot
+require("fjsuarez.copilotchat")

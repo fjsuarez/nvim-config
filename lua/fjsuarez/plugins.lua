@@ -15,6 +15,8 @@ vim.cmd [[
     Plug 'tpope/vim-obsession'
     Plug 'folke/tokyonight.nvim'
     Plug 'tpope/vim-fugitive'
+    Plug 'github/copilot.vim'
+    Plug 'CopilotC-Nvim/CopilotChat.nvim'
   call plug#end()
 ]]
 
