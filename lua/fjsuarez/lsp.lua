@@ -5,7 +5,17 @@ local capabilities = require('cmp_nvim_lsp').default_capabilities()
 lspconfig.ts_ls.setup {capabilities=capabilities}
 
 -- Python language server
-lspconfig.pyright.setup {capabilities=capabilities}
+lspconfig.pyright.setup {
+  capabilities = capabilities,
+  settings = {
+    python = {
+      analysis = {
+	autoSearchPaths = true,
+	extraPaths = { '/home/fjsuarez/academy/' },
+      },
+    },
+  },
+}
 
 -- Ruff
 lspconfig.ruff.setup {

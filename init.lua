@@ -9,6 +9,7 @@ require("fjsuarez.keymaps")
 
 -- 4) Language servers & completion
 require("fjsuarez.lsp")
+require("fjsuarez.cmp")
 require("fjsuarez.treesitter")
 require("fjsuarez.telescope")
 
